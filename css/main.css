@@ -1,60 +1,15 @@
-html {
-    font-family: sans-serif;
-}
 
 .button {
-    box-sizing: border-box;
     border: none;
     font-family: inherit;
     font-size: inherit;
     color: inherit;
     cursor: pointer;
     padding: 1.4em 2em 1.2em;
-    display: table;
+    display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
     background-color: #ccc;
     border-radius: 0.3em;
     text-decoration: none;
-    outline: none;
-}
-
-.button:hover,
-.button:focus  {
-    box-shadow: inset 0 -0.4em 0 rgba(0,0,0,0.3);
-    padding-bottom: 1.6em;
-    margin-top: -0.4em;
-}
-
-.button:active {
-    box-shadow: inset 0 -.1em 0 rgba(0,0,0,0.3);
-    padding-bottom: 1.4em;
-    margin-top: -0.2em;
-}
-
-.button--confirm {
-    background-color: #2d9f2d;
-}
-
-.button--cancel {
-    background-color: #ff5151;
-}
-
-
-.button--back {
-}
-.button--back::before {
-    content: "\0025C0";
-    font-size: 0.7em;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 0.5em;
-    margin-left: -0.6em;
-}
-
-
-.example {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
 }
