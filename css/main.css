@@ -1,15 +1,18 @@
 
 .button {
+    /* resets */
     border: none;
     font-family: inherit;
     font-size: inherit;
-    color: inherit;
-    cursor: pointer;
-    padding: 1.4em 2em 1.2em;
+    text-decoration: none;
+    /* colours */
+    background-color: #ccc;
+    color: #000;
+    /* styles */
     display: inline-block;
+    padding: 1.4em 2em 1.2em;
     text-transform: uppercase;
     font-weight: bold;
-    background-color: #ccc;
     border-radius: 0.3em;
-    text-decoration: none;
+    cursor: pointer;
 }
